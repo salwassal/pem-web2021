@@ -1,0 +1,8 @@
+Push file pada GIT
+#git init
+git status
+git add .
+#git branch -M main
+git commit -m "tugas2 repo-minggu2"
+#git remote add origin https://github.com/salwassal/pem-web2021
+#git push -u origin main
