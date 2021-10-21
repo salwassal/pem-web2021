@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Formulir PPDB 2021</title>
+        <style>
+		.konten{
+			background-color: #f3f1ec;
+			width: 800px;
+			
+			margin: 20px auto;
+			padding: 15px;
+            color: black;
+		}
+		th, td {
+  			padding: 5px;
+		}
+        footer {
+                margin-top: 50px;
+                padding: 10px;
+                background-color: #cf554b;
+                color: #fff;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="konten">
+            <h1 align="center">Formulir PPDB Jalur Zonasi Tahun 2021</h1>
+            <hr align="center" width="100%">
+            <form action="prosess.php" method="POST">
+            <table style="width: 100%">
+                <tr>
+                    <td><b>INFO PENDAFTARAN</b></td>
+                </tr>
+                <tr>
+                    <td><label>NISN</label></td>
+                    <td>: <input type="text" name="nisn" id="nisn" size="80"></td>
+                </tr>
+                <tr>
+                    <td><label>Asal Sekolah</label></td>
+                    <td>: <input type="text" name="asal_sekolah" id="asal_sekolah" size="80"></td>
+                </tr>
+                <tr>
+                    <td><label>Tahun Lulus</label></td>
+                    <td>: <input type="text" name="tahun_lulus" id="tahun_lulus" size="80" placeholder="(Lampirkan Fotocopy Ijazah)"></td>
+                </tr>
+                <tr>
+                    <td><b>DATA CALON PESERTA</b></td>
+                </tr>
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td>: <input type="text" name="nama_lengkap" id="nama_lengkap" size="80"></td>
+                </tr>
+                <tr>
+                    <td>NIK</td>
+                    <td>: <input type="text" name="nik" id="nik" size="80"></td>
+                </tr>
+                <tr>
+                    <td>Tempat, Tanggal Lahir</td>
+                    <td>: <input type="text" name="tempat_lahir" id="tempat_lahir">, <input type="date" id="tanggal_lahir" name="tanggal_lahir"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>: <input type="radio" id="jenis_kelaminl" name="jenis_kelaminl" value="Laki - Laki">
+                        <label for="jenis_kelaminl">Laki - Laki</label>
+                          <input type="radio" id="jenis_kelaminp" name="jenis_kelaminp" value="perempuan">
+                          <label for="jenis_kelaminp">Perempuan</label>
+                      </td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>: <input type="text" name="alamat" id="alamat" size="80"></td>
+                </tr>
+                <tr>
+                    <td align="right">Desa / Kelurahan</td>
+                    <td>: <input type="text" name="desa" id="desa" size="80"></td>
+                </tr>
+                <tr>
+                    <td align="right">Kecamatan</td>
+                    <td>: <input type="text" name="kecamatan" id="kecamatan" size="80"></td>
+                </tr>
+                <tr>
+                    <td align="right">Kabupaten</td>
+                    <td>: <input type="text" name="kabupaten" id="kabupaten" size="80"></td>
+                </tr>
+                <tr>
+                    <td align="right">Provinsi</td>
+                    <td>: <input type="text" name="provinsi" id="provinsi" size="80"></td>
+                </tr>
+                <tr>
+                    <td><b>DATA ORANG TUA</b></td>
+                </tr>
+                <tr>
+                    <td>Nomor Kartu Keluarga</td>
+                    <td>: <input type="text" name="no_KK" id="no_KK" size="80"></td>
+                </tr>
+                <tr>
+                    <td>Nama Ayah Kandung</td>
+                    <td>: <input type="text" name="nama_ayah" id="nama_ayah" size="80"></td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td>: <input type="text" name="agama_ayah" id="agama_ayah" size="80"></td>
+                </tr>
+                <tr>
+                    <td>Pekerjaan</td>
+                    <td>: <input type="text" name="pekerjaan_ayah" id="pekerjaan_ayah" size="80"></td>
+                </tr>
+                <tr>
+                    <td>Nama Ibu Kandung</td>
+                    <td>: <input type="text" name="nama_ibu" id="nama_ibu" size="80"></td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td>: <input type="text" name="agama_ibu" id="agama_ibu" size="80"></td>
+                </tr>
+                <tr>
+                    <td>Pekerjaan</td>
+                    <td>: <input type="text" name="pekerjaan_ibu" id="pekerjaan_ibu" size="80"></td>
+                </tr>
+                <tr>
+                    <td>Alamat Orang Tua</td>
+                    <td>: <input type="text" name="alamat_ortu" id="alamat_ortu" size="80"></td>
+                </tr>
+                <tr>
+                    <td align="right">Desa / Kelurahan</td>
+                    <td>: <input type="text" name="desa_ortu" id="desa_ortu" size="80"></td>
+                </tr>
+                <tr>
+                    <td align="right">Kecamatan</td>
+                    <td>: <input type="text" name="kecamatan_ortu" id="kecamatan_ortu" size="80"></td>
+                </tr>
+                <tr>
+                    <td align="right">Kabupaten</td>
+                    <td>: <input type="text" name="kabupaten_ortu" id="kabupaten_ortu" size="80"></td>
+                </tr>
+                <tr>
+                    <td align="right">Provinsi</td>
+                    <td>: <input type="text" name="provinsi_ortu" id="provinsi_ortu" size="80"></td>
+                </tr>
+            </table>
+            </form>
+            <hr align="center">
+            <input type="checkbox" id="agreement" name="agreement" value="setuju">
+            <label> Seluruh data yang saya masukkan adalah valid dan sesuai apa adanya.</label><br>
+            <input type="submit" value="Submit" style="height: 30px; width: 100px;">
+            <footer>
+                <div class="footer">
+                    <small>Copyright &copy; 2021 - Salwa Salsabila All Right Reserved</small>
+                </div>
+            </footer>
+    </body>
+</html>
