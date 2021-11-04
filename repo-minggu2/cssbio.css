@@ -6,12 +6,12 @@ body {
 h1 {
     color: #2646a6;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .head {
     position: relative;
-    margin-top: 10px;
+    margin-top: 5px;
     left: 25%;
     display: inline-block;
 }
@@ -39,13 +39,12 @@ caption {
     background-color: #ffffff;
     text-align: left;
     padding: 5px;
-    padding-left: 0px;
+    padding-left: 15px;
     font-size: 18px;
 }
 
 .krs {
     border: 15px solid white;
-    display: inline-block;
     outline: 1px solid #dddddd;
     border: 1 solid #808080 ;
     border-collapse: collapse;
@@ -72,4 +71,3 @@ caption {
 .beda {
     background-color: #ffffff;
 }
-
